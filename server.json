@@ -1,7 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.CSOAI-ORG/scada-bridge-mcp",
-  "description": "Industrial SCADA / Modbus / OPC-UA bridge — parse, map, govern (IEC 62443 / NIS2).",
+  "description": "Industrial SCADA / Modbus / OPC-UA bridge \u2014 parse, map, govern (IEC 62443 / NIS2).",
   "version": "0.1.0",
-  "packages": [{"registry_type": "pypi", "identifier": "scada-bridge-mcp", "version": "0.1.0", "transport": {"type": "stdio"}}]
+  "packages": [
+    {
+      "identifier": "scada-bridge-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
 }
